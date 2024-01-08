@@ -500,8 +500,8 @@ footer .credit p {
 		font-size: 85%;
 	}
 }
-/*Tablet*/
-@media (max-width: 758px) {
+/*Handphone*/
+@media (max-width: 480px) {
 	html {
 		font-size: 55%;
 	}
