@@ -206,12 +206,22 @@ body {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	margin: 2rem auto;
+	margin: 2rem 0.5rem auto;
+	font-family: DM Serif Text;
 	color: #FFF;
+	font-family: DM Serif Text;
 	font-size: 1.5rem;
-	font-style: normal;
-	font-weight: 600;
-	line-height: normal;
+	font-weight: 400;
+}
+.about span.line {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	margin: 3px auto;
+	width: 189px;
+	height: 1px;
+	background-color: #ffff;
 }
 
 .about p {
@@ -242,17 +252,31 @@ body {
 }
 .skill h2 {
 	position: relative;
-	margin-top: 150px;
-	padding: 1rem 5% 5rem;
+	margin-top: 15rem;
+	/*margin-bottom: 5px;*/
+	padding: 1rem 5% 0;
 	color: var(--primary);
+	font-family: DM Serif Text;
 	font-size: 1.5rem;
-	font-weight: 600;
+	font-weight: 400;
 	line-height: normal;
+}
+
+.skill span.line {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	margin: 5px auto;
+	width: 189px;
+	height: 1px;
+	background-color: #8C3333;
 }
 .skill img {
 	position: relative;
 	justify-content: center;
 	align-items: center;
+	margin: 2rem auto;
 }
 
 .skills {
@@ -262,7 +286,7 @@ body {
 	justify-content: center;
 }
 .skill .item-skill {
-	margin: 30px auto;
+	margin: 20px auto;
 	background-color: var(--primary);
 	padding: 20px auto;
 	text-align: center;
@@ -270,7 +294,7 @@ body {
 	box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
 }
 .skill .skills .item-skill p {
-	margin: 20px auto;
+	margin: 10px auto;
 }
 /*Portofolio*/
 .portofolio {
@@ -288,14 +312,24 @@ body {
 	grid-column: 1/-1;
 	text-align: center;
 	justify-content: center;
-	margin-bottom: 20px;
+	margin-bottom: -18px;
+	font-family: DM Serif Text;
+	font-size: 1.5rem;
+	font-weight: 400;
 	color: var(--primary);
 }
 
-
+.portofolio .row span.line {
+	grid-column: 1/-1;
+	margin: 5px auto;
+	width: 202px;
+	height: 1px;
+	background-color: #8C3333;
+}
 .contact {
 	display: block;
 	position: relative;
+	margin: 30px auto;
 	background: linear-gradient(180deg, #8C3333 0%, #BB4B4B 100%);
 }
 
@@ -304,7 +338,20 @@ body {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	font-family: DM Serif Text;
+	font-size: 1.5rem;
+	font-weight: 400;
 	color: #fff;
+}
+.contact span.line {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	margin: 3px auto;
+	width: 189px;
+	height: 1px;
+	background-color: #ffff;
 }
 
 .contact .row {
@@ -530,9 +577,11 @@ footer .credit p {
 		width: 5rem;
 		height: 5rem;
 	}
-
+	.skill h2 {
+		margin-top: 20rem;
+	}
 	.skill img {
-	width: 40rem;
+		width: 40rem;
 	}
 
 	.skill .skills {
