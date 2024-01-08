@@ -287,7 +287,7 @@ body {
 }
 .skill .item-skill {
 	margin: 20px auto;
-	background-color: var(--primary);
+	background-color: #557A46;
 	padding: 20px auto;
 	text-align: center;
 	border-radius: 8px;
@@ -578,7 +578,7 @@ footer .credit p {
 		height: 5rem;
 	}
 	.skill h2 {
-		margin-top: 20rem;
+		margin-top: 25rem;
 	}
 	.skill img {
 		width: 40rem;
