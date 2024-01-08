@@ -302,7 +302,7 @@ body {
 }
 .row {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
 	gap:15px;
 	align-items: center;
 	justify-content: center;
@@ -591,6 +591,12 @@ footer .credit p {
 	.skill .skills img {
 		width: 30%;
 		height: 30%;
+	}
+
+	.contact .row form {
+	width: 70%;
+	padding:2rem 2rem;
+	text-align: center;
 	}
 
 }
